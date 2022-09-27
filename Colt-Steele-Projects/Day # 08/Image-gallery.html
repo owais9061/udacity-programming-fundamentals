@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Bootstrap Image Gallery Project</title>
+
+<link rel="stylesheet" href="/gallery.css">
+
+     <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+
+    <!-- Yeh neechay jQuery ki file isliye add ki hai taake Javacript per koi error na ae run hote hue, kuki JS ko run hone keliye bootstrap per jQuery chahie hoti hai -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                <span class="glyphicon glyphicon-picture" aria-hidden="true"></span>  
+                IMGS
+            </a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="bs-navbar-demo">
+            <ul class="nav navbar-nav">
+                <li><a href="#">About Me</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Signup</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+         </div> 
+        </div>
+    </div>
+    </nav>
+
+
+
+    <!-- Humne yahan per container ki class isliye istemal ki taake left or giht se thore spacing aske -->
+    <div class="container">
+        <div class="jumbotron">
+            <h1>
+                <span class="glyphicon glyphicon-camera" aria-hidden="true"></span>
+                Pakistan Gallery
+            </h1>
+            <p>
+                A Bunch of beautiful images representing Pakistan
+            </p>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="thumbnail">
+                    <img src="https://images.unsplash.com/photo-1622546758596-f1f06ba11f58?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHBha2lzdGFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60" alt="Faisal Masjid">
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="thumbnail">
+                    <img src="https://images.unsplash.com/photo-1622546758596-f1f06ba11f58?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHBha2lzdGFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60" alt="Faisal Masjid">
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="thumbnail">
+                    <img src="https://images.unsplash.com/photo-1622546758596-f1f06ba11f58?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHBha2lzdGFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60" alt="Faisal Masjid">
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="thumbnail">
+                    <img src="https://images.unsplash.com/photo-1622546758596-f1f06ba11f58?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHBha2lzdGFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60" alt="Faisal Masjid">
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="thumbnail">
+                    <img src="https://images.unsplash.com/photo-1622546758596-f1f06ba11f58?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHBha2lzdGFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60" alt="Faisal Masjid">
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="thumbnail">
+                    <img src="https://images.unsplash.com/photo-1622546758596-f1f06ba11f58?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHBha2lzdGFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60" alt="Faisal Masjid">
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="thumbnail">
+                    <img src="https://images.unsplash.com/photo-1622546758596-f1f06ba11f58?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHBha2lzdGFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60" alt="Faisal Masjid">
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="thumbnail">
+                    <img src="https://images.unsplash.com/photo-1622546758596-f1f06ba11f58?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHBha2lzdGFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60" alt="Faisal Masjid">
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="thumbnail">
+                    <img src="https://images.unsplash.com/photo-1622546758596-f1f06ba11f58?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHBha2lzdGFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60" alt="Faisal Masjid">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

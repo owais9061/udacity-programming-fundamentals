@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+    font-family: cursive;
+    color: rgb(216, 53, 31);
+}
+td {
+    width: 90px;
+    height: 90px;
+}
+
+table {
+    margin: auto;
+    /* yeh yahan per table ko beech me khega hud ba khud */
+}
+.vertical {
+    border-left: 2px solid ;
+    border-right: 2px solid ;
+}
+
+.horizontal {
+    border-top: 2px solid ;
+    border-bottom: 2px solid ;
+}

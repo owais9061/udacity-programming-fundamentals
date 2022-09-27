@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+body {
+    text-align: center;
+}
+
+main {
+    padding-left: 20px;
+    text-align: left;
+    border: 10px solid rgb(2, 130, 204);
+    width: 70%;
+    margin: auto;
+}
+
+h2{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 800;
+}
+
+h2:hover {
+    text-decoration: underline;
+}
+
+#date {
+    font-family: 'Oswald';
+    font-weight: 200;
+    text-transform: uppercase;
+    color: rgb(2, 130, 204);
+}
+
+.quoted-pera {
+    border-left: 5px solid rgb(104, 192, 243);
+    padding-left: 10px;
+    font-family: 'Quicksand';
+}
+
+p {
+    font-family: 'Quicksand';
+}

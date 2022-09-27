@@ -1,0 +1,37 @@
+body {
+	background-color: bisque;
+}
+
+#main-header {
+	display: flex;
+	justify-content:space-between;
+	padding: 10px 35px;
+	background-color: aqua;
+}
+#main-header ul li {
+	display: flex;
+	flex-direction: row;
+}
+
+
+#main-header img {
+	height: 100px;
+	width: 150px;
+}
+
+.courses {
+ 	margin: 0px 30px 0px 30px;
+	height: 450px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#courses-item1 {
+	background-color: black;
+	padding: 30px 40px;
+}
+
+#courses-item2 {
+	background-color: black;
+	padding: 30px 40px;
+}

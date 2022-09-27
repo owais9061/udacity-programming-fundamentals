@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Forms</title>
+</head> 
+
+<body>
+    <h1>Login</h1>
+    <!-- action is where form sends Data to
+    method is what HTTP method (get/post) -->
+    <form action="https://www.wikipedia.org/" method="get">
+
+        <!-- here the required tag after input is used to make sure it is a must filled -->
+        <label>
+            Input your Name:
+            <input name="username" type="text" placeholder="name" required>
+        </label>
+
+        <label>
+            Email:
+            <input name="email" type="email" placeholder="email" required>
+        </label>
+
+        <input name="color" type="color">
+
+        <label>
+            Your Password:
+            <input name="password" type="password" placeholder="password">
+        </label>
+        <input type="radio">
+        <button>Submit</button>
+        <button>Reset</button>
+    </form>    
+</body>
+</html>

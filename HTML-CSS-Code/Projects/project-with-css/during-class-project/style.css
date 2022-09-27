@@ -1,0 +1,44 @@
+
+body {
+   box-sizing: border-box;
+   font-family: 'Lucida Sans';
+}
+
+.detail {
+    color:#1d1d1d;
+    max-width: 35%;
+}
+
+#photo {
+    
+    max-width: 40%;
+}
+
+#photo img {
+    height: 250px;
+    width: 250px;
+    margin-right: 10px;
+}
+
+
+.title {
+    max-width: 50%;
+    color: rgba(255, 255, 255, 0.86);
+    background-color: rgba(24, 180, 180, 0.805);
+    padding-top: 15px;
+    padding-left: 5px;
+}
+
+.app {
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+

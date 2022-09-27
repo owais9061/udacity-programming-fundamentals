@@ -1,0 +1,29 @@
+.container {
+    margin: 14%;
+}
+
+.description {
+    color:red;
+}
+
+ h1 {
+    padding: 15px;
+    background-color: #33BEBE;
+    max-width: 750px;
+    color: white;
+    font-family: 'Lucida Sans';
+
+ }
+.app {
+    display: flex;
+}
+
+.screenshot img {
+    max-width: 250px;
+    margin-right: 15px;
+}
+
+.description {
+    max-width: 550px;
+    color: #7c8b88;
+}

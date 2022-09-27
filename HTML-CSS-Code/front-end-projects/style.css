@@ -1,0 +1,61 @@
+body {
+    margin-top: 5px;
+    padding-left: 3%;
+    padding-right: 3%;
+    width: 90%;
+}
+
+#brand-logo img {
+    width: 100px;
+    height: 100%;
+}
+
+header {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#first-half-header {
+    display: flex;
+}
+
+#first-half-header ul li {
+    padding: 12px;
+}
+
+#second-half-header ul li {
+    padding: 10px;
+}
+
+body nav {
+    width: 30%;
+}
+
+#hero-image-heading {
+    font-size: 85px;
+    position:relative;
+    top: 13rem;
+    left: 27rem;
+    color: antiquewhite;
+}
+
+.horizontal-menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.horizontal-menu a {
+    text-decoration: none;
+}
+
+#hero-section {
+    width:85%;
+    display: flex;
+    justify-content: center;
+}
+#hero-section img {
+    width: 900px;
+    height: 100%;
+}
